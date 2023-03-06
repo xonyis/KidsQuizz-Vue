@@ -5,11 +5,11 @@ import {RouterLink} from 'vue-router'
 </script>
 <template>
     <div class="results">
-        <p>Your Results...</p>
+        <p>Vos Résulats ...</p>
         <h1>
            {{ numberOfCorrectAnswers }} /{{ quizQuestionLength }}
         </h1>
-        <RouterLink class="btnGBH" to="/">Go Back Home</RouterLink>
+        <RouterLink class="btnGBH" to="/">Retour a l'acceuil ...</RouterLink>
     </div>
 </template>
 <style scoped>
